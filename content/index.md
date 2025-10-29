@@ -1,6 +1,18 @@
 ---
-title: Welcome to Quartz
+title: 甜的辣条
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+欢迎来到甜的辣条的笔记库，如果你在使用移动设备，你可以直接点击屏幕左上角的更多图标进入笔记。
+
+>[!caution] 请注意
+>本博客尚不完善，仅作个人分享使用，且暂无商用目的。
+
+这些笔记的内容整理自法大老师们的 PPT 和法考讲义及配套视频，一般地，内容来源应当会标注在页面，如有遗漏也烦请联系。
+
+目前，所有笔记内容均由本人整理（绝大部分笔记借助了 Gemini Pro 的帮助整理），一些能明显看出谬误的地方恕学艺不精，敬请谅解。如您发现有任何内容错误或版权问题烦请联系我。
+
+本人暂未加入任何学习小组（没有任何别的意思），若您实在看不下去想提供帮助加入并不存在的团队也欢迎联系。
+
+>[!note] 联系方式
+>- 邮箱：1250436555@qq.com
+>- GitHub：https://github.com/chilly-chilli/ChillyChilli
