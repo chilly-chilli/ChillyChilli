@@ -1,18 +1,46 @@
----
-title: 甜的辣条
----
+title: 首页 layout: home
 
-欢迎来到甜的辣条的笔记库，如果你在使用移动设备，你可以直接点击屏幕左上角的更多图标进入笔记。
+<div class="hero-section">
+<h1>法大同学的 <span class="highlight">协同知识库</span></h1>
+<p class="subtitle">基于 Quartz 构建的开放式学习笔记。这里有法理的逻辑，也有条文的温度。
 
->[!caution] 请注意
->本博客尚不完善，仅作个人分享使用，且暂无商用目的。
 
-这些笔记的内容整理自法大老师们的 PPT 和法考讲义及配套视频，一般地，内容来源应当会标注在页面，如有遗漏也烦请联系。
 
-目前，所有笔记内容均由本人整理（绝大部分笔记借助了 Gemini Pro 的帮助整理），一些能明显看出谬误的地方恕学艺不精，敬请谅解。如您发现有任何内容错误或版权问题烦请联系我。
+这是一个去中心化的维基，期待你的每一次提交。</p>
+</div>
 
-本人暂未加入任何学习小组（没有任何别的意思），若您实在看不下去想提供帮助加入并不存在的团队也欢迎联系。
+<!-- 注意：这里的链接需要替换为你实际的笔记路径 -->
 
->[!note] 联系方式
->- 邮箱：1250436555@qq.com
->- GitHub：https://github.com/chilly-chilli/ChillyChilli
+<div class="bento-grid">
+<a href="/民商法" class="card civil-law">
+<div class="icon">⚖️</div>
+<h3>民商法学</h3>
+<p>民法总论、物权法、债法、公司法及相关司法解释梳理。</p>
+</a>
+
+<a href="/刑事法" class="card criminal-law">
+<div class="icon">🗡️</div>
+<h3>刑事法学</h3>
+<p>刑法总论犯罪构成、分则重点罪名解析及刑诉流程。</p>
+</a>
+
+<a href="/行政法" class="card admin-law">
+<div class="icon">🏛️</div>
+<h3>行政与法理</h3>
+<p>行政行为、行政复议、法理学高阶导论及宪法相关。</p>
+</a>
+
+<a href="/贡献指南" class="card contribute">
+<div class="icon">🤝</div>
+<h3>参与贡献</h3>
+<p>发现错误？点击页面底部的 "Edit this page" 即可提交修改。点击查看详细指南。</p>
+</a>
+</div>
+
+✨ 最近更新
+
+[!info] 动态
+
+2025-10-29: 知识库架构初始化
+
+TODO: 上传民法典合同编解释
