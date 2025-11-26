@@ -12,15 +12,15 @@ title: 首页 layout: home
 <!-- 注意：这里的链接需要替换为你实际的笔记路径 -->
 
 <div class="bento-grid">
-<a href="/民商法" class="card civil-law">
+<a href="/民法" class="card civil-law">
 <div class="icon">⚖️</div>
-<h3>民商法学</h3>
+<h3>民法</h3>
 <p>民法总论、物权法、债法、公司法及相关司法解释梳理。</p>
 </a>
 
-<a href="/刑事法" class="card criminal-law">
+<a href="/刑法" class="card criminal-law">
 <div class="icon">🗡️</div>
-<h3>刑事法学</h3>
+<h3>刑法</h3>
 <p>刑法总论犯罪构成、分则重点罪名解析及刑诉流程。</p>
 </a>
 
