@@ -1,12 +1,14 @@
 ---
-title: "刑法学分论 VI 财产犯罪之一"
-source: "【学生】2026年春本科刑分_财产犯罪之一.pdf"
-author: "汪润"
-date: "2026-05-09"
-language: "中文"
-course: "刑法学分论"
+title: VI 财产犯罪之一
+source: 【学生】2026年春本科刑分_财产犯罪之一.pdf
+author: 汪润
+date: 2026-05-09
+language: 中文
+course: 刑法学分论
+reference_texts:
+  - 众合法考 2025柏浪涛刑法精讲卷（PaddleOCR-VL Markdown）
 source_transcripts:
-  - "09.汪润刑分逐字稿+重点 第九周.docx"
+  - 09.汪润刑分逐字稿+重点 第九周.docx
 tags:
   - 法律
   - 刑法
@@ -15,8 +17,8 @@ tags:
   - 盗窃罪
   - 侵占罪
 aliases:
-  - "VI 财产犯罪之一"
-  - "财产犯罪之一"
+  - VI 财产犯罪之一
+  - 财产犯罪之一
 ---
 
 ## 一、财产犯罪的法益
