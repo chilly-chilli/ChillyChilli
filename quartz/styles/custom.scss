@@ -1,85 +1,305 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Homepage study navigation.
+.study-home {
+  --study-border: color-mix(in srgb, var(--lightgray) 74%, var(--gray));
+  --study-muted: color-mix(in srgb, var(--darkgray) 84%, var(--gray));
+  --study-panel: color-mix(in srgb, var(--light) 92%, white);
 
-// 首页 Hero 区域样式
-.hero-section {
-  text-align: center;
-  margin: 4rem 0 3rem 0;
+  margin: 0 auto 4rem;
+  max-width: 1050px;
+}
+
+.study-hero {
+  padding: 4.5rem 0 2.75rem;
+  border-bottom: 1px solid var(--study-border);
 
   h1 {
-    font-size: 2.5rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-    
-    .highlight {
-      background: linear-gradient(120deg, #e53e3e 0%, #dd6b20 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-  }
-
-  .subtitle {
-    font-size: 1.1rem;
-    color: var(--darkgray);
-    line-height: 1.6;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 760px;
+    margin: 0;
+    color: var(--dark);
+    font-size: 4.4rem;
+    font-weight: 760;
+    letter-spacing: 0;
+    line-height: 1.04;
   }
 }
 
-// Bento Grid 卡片布局
-.bento-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 3rem;
+.study-eyebrow,
+.section-heading p,
+.subject-code {
+  margin: 0 0 0.65rem;
+  color: var(--secondary);
+  font-size: 0.76rem;
+  font-weight: 720;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
 
-  a.card {
-    display: block; // 让整个卡片可点击
-    padding: 1.5rem;
-    border-radius: 1rem;
-    border: 1px solid var(--lightgray);
-    background-color: var(--light);
-    text-decoration: none; // 去掉链接下划线
-    transition: all 0.2s ease;
-    
-    // 使得卡片内的文字颜色继承
+.study-lede {
+  max-width: 680px;
+  margin: 1.2rem 0 0;
+  color: var(--study-muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.65rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.35rem;
+    padding: 0.34rem 0.78rem;
+    border: 1px solid var(--study-border);
+    border-radius: 999px;
+    background: var(--study-panel);
     color: var(--dark);
+    font-size: 0.92rem;
+    font-weight: 640;
+    text-decoration: none;
+    transition:
+      border-color 0.18s ease,
+      color 0.18s ease,
+      transform 0.18s ease;
 
     &:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-      border-color: var(--secondary); // 悬停时边框变色
+      border-color: var(--secondary);
+      color: var(--secondary);
+      transform: translateY(-1px);
     }
+  }
+}
 
-    .icon {
-      font-size: 2rem;
-      margin-bottom: 1rem;
+.study-section {
+  padding-top: 2.6rem;
+}
+
+.section-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+
+  h2 {
+    margin: 0;
+    color: var(--dark);
+    font-size: 1.45rem;
+    letter-spacing: 0;
+  }
+}
+
+.subject-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.subject-card {
+  position: relative;
+  display: flex;
+  min-height: 18rem;
+  flex-direction: column;
+  padding: 1.1rem;
+  overflow: hidden;
+  border: 1px solid var(--study-border);
+  border-radius: 8px;
+  background: var(--study-panel);
+  color: var(--dark);
+  text-decoration: none;
+  transition:
+    border-color 0.18s ease,
+    box-shadow 0.18s ease,
+    transform 0.18s ease;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto;
+    height: 4px;
+    background: var(--subject-accent, var(--secondary));
+  }
+
+  &:hover {
+    border-color: color-mix(in srgb, var(--subject-accent, var(--secondary)) 58%, var(--study-border));
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.07);
+    transform: translateY(-2px);
+  }
+
+  .subject-title {
+    display: block;
+    margin: 0 0 0.55rem;
+    color: var(--dark);
+    font-size: 1.45rem;
+    font-weight: 720;
+    letter-spacing: 0;
+  }
+
+  p {
+    margin: 0;
+    color: var(--study-muted);
+    font-size: 0.94rem;
+    line-height: 1.68;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin: auto 0 0;
+    padding: 1.35rem 0 0;
+    list-style: none;
+  }
+
+  li {
+    padding: 0.22rem 0.48rem;
+    border: 1px solid color-mix(in srgb, var(--subject-accent, var(--secondary)) 22%, var(--study-border));
+    border-radius: 999px;
+    color: var(--study-muted);
+    font-size: 0.78rem;
+    line-height: 1.35;
+  }
+}
+
+.subject-civil {
+  --subject-accent: #b14d3a;
+}
+
+.subject-criminal {
+  --subject-accent: #5f5a9f;
+}
+
+.subject-theory {
+  --subject-accent: #3d7b6f;
+}
+
+.subject-international {
+  --subject-accent: #7c6b2e;
+}
+
+.subject-procedure {
+  --subject-accent: #4f6f9f;
+}
+
+.subject-admin {
+  --subject-accent: #68745d;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.6rem;
+
+  a {
+    display: flex;
+    min-height: 4.2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.65rem;
+    border: 1px solid var(--study-border);
+    border-radius: 8px;
+    background: color-mix(in srgb, var(--light) 86%, white);
+    color: var(--dark);
+    font-size: 0.9rem;
+    font-weight: 650;
+    line-height: 1.35;
+    text-align: center;
+    text-decoration: none;
+    transition:
+      border-color 0.18s ease,
+      color 0.18s ease,
+      transform 0.18s ease;
+
+    &:hover {
+      border-color: var(--secondary);
+      color: var(--secondary);
+      transform: translateY(-1px);
     }
+  }
+}
 
-    h3 {
-      margin-top: 0;
-      margin-bottom: 0.5rem;
-      font-size: 1.2rem;
-      font-weight: 700;
-    }
+.study-note {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.5fr);
+  gap: 1.25rem;
+  margin-top: 2.8rem;
+  padding: 1.25rem;
+  border: 1px solid var(--study-border);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--light) 88%, white);
 
-    p {
-      font-size: 0.9rem;
-      color: var(--darkgray);
-      margin: 0;
-      line-height: 1.4;
+  h2 {
+    margin: 0;
+    color: var(--dark);
+    font-size: 1.25rem;
+    letter-spacing: 0;
+  }
+
+  p {
+    margin: 0;
+    color: var(--study-muted);
+    line-height: 1.75;
+  }
+}
+
+.planned-subjects {
+  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  span {
+    padding: 0.24rem 0.55rem;
+    border: 1px dashed var(--study-border);
+    border-radius: 999px;
+    color: var(--study-muted);
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .study-hero h1 {
+    font-size: 3.35rem;
+  }
+
+  .subject-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .resource-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .study-hero {
+    padding-top: 2.75rem;
+
+    h1 {
+      font-size: 2.45rem;
     }
   }
 
-  // 特殊卡片样式：贡献
-  .card.contribute {
-    background-color: rgba(229, 62, 62, 0.05); // 淡淡的红色背景
-    border-color: rgba(229, 62, 62, 0.1);
-    
-    &:hover {
-      border-color: #e53e3e;
-    }
+  .section-heading,
+  .study-note {
+    display: block;
+  }
+
+  .subject-grid,
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .subject-card {
+    min-height: 0;
+  }
+
+  .planned-subjects {
+    margin-top: 1rem;
   }
 }
