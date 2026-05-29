@@ -1,14 +1,14 @@
 ---
-title: "民事诉讼法第十七讲：再审程序笔记"
-source_ppt: "2026-再审程序-庄诗岳.pdf"
-author: "庄诗岳"
-date: "2026-05-17"
+title: XIII 再审程序
+source_ppt: 2026-再审程序-庄诗岳.pdf
+author: 庄诗岳
+date: 2026-05-17
 tags:
   - 法律/民事诉讼法
   - 课程/民事诉讼法
   - 材料/PPT笔记
   - 再审程序
-course: "民事诉讼法"
+course: 民事诉讼法
 ---
 
 # 再审程序
