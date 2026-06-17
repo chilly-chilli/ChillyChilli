@@ -1,5 +1,5 @@
 ---
-title: XVIII 第三人撤销之诉
+title: XV 第三人撤销之诉
 source_ppt: 2026-第三人撤销之诉-庄诗岳.pdf
 author: 庄诗岳
 date: 2026-06-01
