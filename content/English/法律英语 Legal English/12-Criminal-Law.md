@@ -122,11 +122,11 @@ source_ppt: "unit 12A criminal law.pptx; Unit 12B people v. goetz.pptx"
 
 ```mermaid
 flowchart LR
-    A["Actus Reus\n犯罪行为\n'guilty act'"] --> D["Concurrence\n同时存在"]
-    B["Mens Rea\n犯罪意图\ncriminal intent"] --> D
+    A["Actus Reus<br>犯罪行为<br>'guilty act'"] --> D["Concurrence<br>同时存在"]
+    B["Mens Rea<br>犯罪意图<br>criminal intent"] --> D
     D --> E["Crime 犯罪成立"]
     
-    F["Strict Liability Offenses\n严格责任犯罪"] --> G["No Mens Rea required\n无需犯罪意图"]
+    F["Strict Liability Offenses<br>严格责任犯罪"] --> G["No Mens Rea required<br>无需犯罪意图"]
 ```
 
 ### （一）Actus Reus（犯罪行为）

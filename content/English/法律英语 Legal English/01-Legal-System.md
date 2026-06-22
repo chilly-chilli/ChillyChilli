@@ -49,7 +49,7 @@ source_ppt: "Week01-02-Course-Orientation-Unit1-Legal-System-Common-Law-vs-Civil
 flowchart TD
     A[Case comes to court] --> B{Look to precedent}
     B -->|有类似先例| C[Court BOUND to follow reasoning — Stare Decisis]
-    B -->|无先例| D["Matter of first impression\n（无先例可循）"]
+    B -->|无先例| D["Matter of first impression<br>（无先例可循）"]
     D --> E[Judges Create New Precedent]
     E --> F[Binds Future Courts]
 ```
@@ -133,12 +133,12 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    A[普通法的缺陷] --> B[令状制度僵化\nWrit System]
-    B --> C["无匹配令状\n→ 无法律救济"]
-    C --> D[向国王请愿\nPetition the King]
-    D --> E[国王委托大法官处理\nChancellor]
-    E --> F[大法官法院\nCourt of Chancery]
-    F --> G[衡平法发展为\n先例体系]
+    A[普通法的缺陷] --> B[令状制度僵化<br>Writ System]
+    B --> C["无匹配令状<br>→ 无法律救济"]
+    C --> D[向国王请愿<br>Petition the King]
+    D --> E[国王委托大法官处理<br>Chancellor]
+    E --> F[大法官法院<br>Court of Chancery]
+    F --> G[衡平法发展为<br>先例体系]
 ```
 
 **关键时间节点：**

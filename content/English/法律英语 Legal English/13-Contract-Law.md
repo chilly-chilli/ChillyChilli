@@ -42,7 +42,7 @@ flowchart TD
     A --> F[Legal Capacity 法律行为能力]
     A --> G[Legality 合法性]
     
-    E --> H["'Meeting of minds'\n各方对合同达成一致"]
+    E --> H["'Meeting of minds'<br>各方对合同达成一致"]
 ```
 
 ---

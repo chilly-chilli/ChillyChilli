@@ -41,13 +41,13 @@ source_ppt: "Week06-Unit5-Constitution-Marbury-v-Madison.pdf"
 
 ```mermaid
 flowchart TB
-    Constitution["US Constitution"] --> A["Article I\nLegislature\n立法权"]
-    Constitution --> B["Article II\nExecutive\n行政权"]
-    Constitution --> C["Article III\nJudiciary\n司法权"]
+    Constitution["US Constitution"] --> A["Article I<br>Legislature<br>立法权"]
+    Constitution --> B["Article II<br>Executive<br>行政权"]
+    Constitution --> C["Article III<br>Judiciary<br>司法权"]
     
-    A --- Congress["Congress 国会\n(Capitol Hill)\nSenate + House of Representatives"]
-    B --- President["The President 总统\nCommander-in-Chief"]
-    C --- Court["Supreme Court 最高法院\n+ Inferior Courts"]
+    A --- Congress["Congress 国会<br>(Capitol Hill)<br>Senate + House of Representatives"]
+    B --- President["The President 总统<br>Commander-in-Chief"]
+    C --- Court["Supreme Court 最高法院<br>+ Inferior Courts"]
     
     A -.->|Checks| B
     A -.->|Checks| C

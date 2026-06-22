@@ -37,9 +37,9 @@ source_ppt: "unit 14 Tort law.pptx"
 
 ```mermaid
 flowchart TB
-    T["Torts\n侵权"] --> A["Intentional Torts\n故意侵权"]
-    T --> B["Negligence\n过失"]
-    T --> C["Strict Liability Torts\n严格责任侵权"]
+    T["Torts<br>侵权"] --> A["Intentional Torts<br>故意侵权"]
+    T --> B["Negligence<br>过失"]
+    T --> C["Strict Liability Torts<br>严格责任侵权"]
 ```
 
 ### （一）Intentional Torts（故意侵权）
@@ -67,10 +67,10 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    A["Duty of Care\n注意义务"] --> B["Breach of Duty\n违反义务"]
+    A["Duty of Care<br>注意义务"] --> B["Breach of Duty<br>违反义务"]
     B --> C["Harm 损害"]
     C --> D["Causation 因果关系"]
-    D --> E["Negligence\n过失成立"]
+    D --> E["Negligence<br>过失成立"]
 ```
 
 | 要素 | 说明 |

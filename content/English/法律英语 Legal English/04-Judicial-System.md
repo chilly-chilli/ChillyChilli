@@ -28,8 +28,8 @@ source_ppt: "Week04-Unit4-Judicial-System.pdf"
 
 ```mermaid
 flowchart TB
-    A["US Supreme Court\n最高法院\n1 Chief Justice + 8 Associate Justices\nFinal jurisdiction on all cases"] --> B["US Courts of Appeals\n联邦上诉法院\n11+1+1 circuits"]
-    B --> C["US Federal District Courts\n联邦地区法院\n94 Districts"]
+    A["US Supreme Court<br>最高法院<br>1 Chief Justice + 8 Associate Justices<br>Final jurisdiction on all cases"] --> B["US Courts of Appeals<br>联邦上诉法院<br>11+1+1 circuits"]
+    B --> C["US Federal District Courts<br>联邦地区法院<br>94 Districts"]
     
     style A fill:#2C5F2D,color:#fff
     style B fill:#1C7293,color:#fff
@@ -82,11 +82,11 @@ flowchart TB
 
 ```mermaid
 flowchart TB
-    A["State Supreme Court\n州最高法院\n审理来自高等法院的上诉\n某些案件享有初审管辖权"] --> B["Appellate Court\n中级上诉法院\n（较大的州设有）"]
-    B --> C["Superior Court\n高等法院\n初审管辖权 + 下级法院上诉\n大多数陪审团审判在此进行"]
-    C --> D["Inferior Courts\n下级法院\n治安法院、市法院、交通法院等\n仅管辖轻微民刑事案件"]
+    A["State Supreme Court<br>州最高法院<br>审理来自高等法院的上诉<br>某些案件享有初审管辖权"] --> B["Appellate Court<br>中级上诉法院<br>（较大的州设有）"]
+    B --> C["Superior Court<br>高等法院<br>初审管辖权 + 下级法院上诉<br>大多数陪审团审判在此进行"]
+    C --> D["Inferior Courts<br>下级法院<br>治安法院、市法院、交通法院等<br>仅管辖轻微民刑事案件"]
     
-    A -.-> E["Special Tribunals\n特别法院\n少年法院、家庭法院\n遗嘱认证法院等"]
+    A -.-> E["Special Tribunals<br>特别法院<br>少年法院、家庭法院<br>遗嘱认证法院等"]
 ```
 
 ### （二）各层级职能

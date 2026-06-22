@@ -74,12 +74,12 @@ C (Pretrial Proceedings) → B (Opening Statements) → E (Evidence & Witnesses)
 
 ```mermaid
 flowchart TD
-    A[Opening Statements 开庭陈述] --> B[Plaintiff & Defendant Submit Evidence\n原告和被告提交证据]
-    B --> C[Direct & Cross-Examination\n直接盘问 & 交叉盘问]
+    A[Opening Statements 开庭陈述] --> B[Plaintiff & Defendant Submit Evidence<br>原告和被告提交证据]
+    B --> C[Direct & Cross-Examination<br>直接盘问 & 交叉盘问]
     C --> D[Closing Statement 结案陈词]
     D --> E[Jury Instructions 陪审团指示]
-    E --> F[Jury Retires for Deliberation\n退庭评议]
-    F --> G[Jury: Verdict 陪审团裁决\nJudge: Judgment 法官判决]
+    E --> F[Jury Retires for Deliberation<br>退庭评议]
+    F --> G[Jury: Verdict 陪审团裁决<br>Judge: Judgment 法官判决]
 ```
 
 - 证据类型：tangible things（实物证据）+ oral witness testimony（证人证言）

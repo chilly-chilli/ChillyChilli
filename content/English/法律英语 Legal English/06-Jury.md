@@ -70,13 +70,13 @@ source_ppt: "Week07-Unit6-Jury.pdf"
 
 ```mermaid
 flowchart TD
-    A[Jury Summons 陪审员传唤令] --> B[Gather at courthouse\n到法院集合]
-    B --> C[Pool of potential jurors\n潜在陪审员候选池]
-    C --> D["Voir Dire 预先审查\n（审查背景、观点、能否客观衡量证据）"]
+    A[Jury Summons 陪审员传唤令] --> B[Gather at courthouse<br>到法院集合]
+    B --> C[Pool of potential jurors<br>潜在陪审员候选池]
+    C --> D["Voir Dire 预先审查<br>（审查背景、观点、能否客观衡量证据）"]
     D --> E{Attorney challenges}
-    E -->|有因回避| F["Challenge for Cause\n有因回避\n（表达偏见 → 法官同意 → 无限次数）"]
-    E -->|无因回避| G["Peremptory Challenge\n无因回避\n（无需说明理由 → 有限次数）"]
-    F --> H[Impaneled and sworn in\n组成陪审团并宣誓就职]
+    E -->|有因回避| F["Challenge for Cause<br>有因回避<br>（表达偏见 → 法官同意 → 无限次数）"]
+    E -->|无因回避| G["Peremptory Challenge<br>无因回避<br>（无需说明理由 → 有限次数）"]
+    F --> H[Impaneled and sworn in<br>组成陪审团并宣誓就职]
     G --> H
 ```
 
